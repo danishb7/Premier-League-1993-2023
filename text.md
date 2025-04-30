@@ -85,8 +85,3 @@ References
     
 *   SAS Documentation: [SAS 9.4](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/pgmsaswlcm/home.htm)
     
-
-About the Author
-----------------
-
-Danish BhatkarGraduate Student, Computer ScienceClemson University, Class of 2025Football and Data Science Enthusiast
