@@ -11,7 +11,7 @@ Data Source
 
 The dataset used in this analysis is sourced from Kaggle, specifically the Premier League Matches 1993-2023 dataset. It contains information on every match played in the Premier League over the past 30 years, including the teams, goals scored, goals conceded, and match results (home win, away win, or draw).
 
-**Data Source**:Premier League Matches 1993-2023 on Kaggle
+**Data Source**: [Premier League Matches 1993-2023 on Kaggle](https://www.kaggle.com/datasets/evangower/premier-league-matches-19922022)
 
 Data Exploration & Cleaning
 ---------------------------
@@ -81,7 +81,7 @@ How to Use
 References
 ----------
 
-*   Kaggle Premier League Dataset
+*   [Kaggle Premier League Dataset](https://www.kaggle.com/datasets/evangower/premier-league-matches-19922022)
     
 *   SAS Documentation: [SAS 9.4](https://documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/pgmsaswlcm/home.htm)
     
