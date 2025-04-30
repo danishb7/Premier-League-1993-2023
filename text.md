@@ -9,9 +9,9 @@ This project aims to analyze the performance trends of teams in the English Prem
 Data Source
 -----------
 
-The dataset used in this analysis is sourced from Kaggle, specifically the Premier League Matches 1993-2022 dataset. It contains information on every match played in the Premier League over the past 30 years, including the teams, goals scored, goals conceded, and match results (home win, away win, or draw).
+The dataset used in this analysis is sourced from Kaggle, specifically the Premier League Matches 1993-2023 dataset. It contains information on every match played in the Premier League over the past 30 years, including the teams, goals scored, goals conceded, and match results (home win, away win, or draw).
 
-**Data Source**:Premier League Matches 1993-2022 on Kaggle
+**Data Source**:Premier League Matches 1993-2023 on Kaggle
 
 Data Exploration & Cleaning
 ---------------------------
