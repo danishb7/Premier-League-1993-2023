@@ -1,0 +1,112 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA rawdata
+
+NOTE: Processing inline DATALINES (90 lines)
+
+NOTE: Read 90 rows from DATALINES.
+NOTE: Wrote rawdata (90 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA cleandata
+
+
+NOTE: Read 90 rows from rawdata.
+NOTE: Wrote cleandata (90 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA pointstable
+
+
+NOTE: Read 90 rows from cleandata.
+NOTE: Wrote pointstable (90 rows, 10 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=pointstable
+
+NOTE: Read 90 rows from pointstable.
+NOTE: Wrote homegames (90 rows, 10 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=pointstable
+
+NOTE: Read 90 rows from pointstable.
+NOTE: Wrote awaygames (90 rows, 10 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA homepoints
+
+
+NOTE: Read 90 rows from homegames.
+NOTE: Wrote homepoints (22 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA awaypoints
+
+
+NOTE: Read 90 rows from awaygames.
+NOTE: Wrote awaypoints (22 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA PointsTablemerged
+
+NOTE: Stream 1 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote PointsTablemerged (22 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA GoalsH
+
+
+NOTE: Read 90 rows from homegames.
+NOTE: Wrote GoalsH (22 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA GoalsA
+
+
+NOTE: Read 90 rows from awaygames.
+NOTE: Wrote GoalsA (22 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA GoalsTable
+
+NOTE: Stream 1 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote GoalsTable (22 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA mergedtable
+
+NOTE: Stream 1 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 22 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote mergedtable (22 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=mergedtable
+
+NOTE: Read 22 rows from mergedtable.
+NOTE: Wrote sortedtable (22 rows, 6 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA ranking
+
+
+NOTE: Read 22 rows from sortedtable.
+NOTE: Wrote ranking (22 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Rankings.
+NOTE: PROC PRINT data=ranking
+
+NOTE: PROC PRINT completed: 15 observations printed, 7 variables

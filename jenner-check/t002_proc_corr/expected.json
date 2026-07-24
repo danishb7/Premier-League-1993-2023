@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-24T03:32:58Z",
+  "_captured_run_id": "r_ba1ad321d4f54f2181e573ab0d4634b4",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote ranking (22 rows, 7 columns).",
+    "NOTE: PROC CORR data=ranking",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

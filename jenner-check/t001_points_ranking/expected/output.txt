@@ -1,0 +1,23 @@
+                                                        Rankings
+
+
+  Obs  Rank  YearEnd             Team  GoalsFor  GoalsAgainst  GoalDiff  TotPoints
+-----  ----  -------  ---------------  --------  ------------  --------  ---------
+    1     1     1993  Norwich City           18            11         7         22
+    2     2     1993  Blackburn              15             8         7         18
+    3     3     1993  Coventry City          10             6         4         18
+    4     4     1993  Manchester Utd         11             7         4         17
+    5     5     1993  QPR                    10             6         4         15
+    6     6     1993  Middlesbrough          13             7         6         13
+    7     7     1993  Ipswich Town           10             8         2         12
+    8     8     1993  Everton                10             8         2         12
+    9     9     1993  Manchester City        11             9         2         11
+   10    10     1993  Arsenal                10            10         0         10
+   11    11     1993  Leeds United           14            13         1         10
+   12    12     1993  Aston Villa            10             8         2         10
+   13    13     1993  Tottenham               8            13        -5         10
+   14    14     1993  Chelsea                12            12         0          9
+   15    15     1993  Liverpool               9            11        -2          9
+
+... 7 more observations (showing 15 of 22)
+
