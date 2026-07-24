@@ -1,0 +1,18 @@
+                           Correlation of Total Points against Scoring and Conceding of Goals
+
+                    The CORR Procedure
+                2 Variables:    Goals Scored   Goals Conceded
+                    Simple Statistics
+Variable         N      Mean   Std Dev       Sum   Minimum   Maximum
+--------  --------  --------  --------  --------  --------  --------
+Goals Scored          22  10.72727   2.76340  236.00000   6.00000  18.00000
+Goals Conceded        22  10.72727   3.34068  236.00000   6.00000  18.00000
+Total Points          22  10.90909   4.71986  240.00000   3.00000  22.00000
+   Pearson Correlation Coefficients, N = 22
+            GoalsFor  GoalsAgainst
+--------  --------  --------
+TotPoints   0.64058  -0.69928
+   Spearman Correlation Coefficients, N = 22
+            GoalsFor  GoalsAgainst
+--------  --------  --------
+TotPoints   0.54858  -0.79344

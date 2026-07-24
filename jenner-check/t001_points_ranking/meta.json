@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_points_ranking",
+  "source_file": "Final Project.sas",
+  "source_blob_sha": "6a376dbceec7e326f61119ad6f8abed4235e1315",
+  "source_commit": "ad93a502d5d544fc6976d033a6e529401bfa8dad",
+  "notes": "Season ranking pipeline from Final Project.sas: FTR->points mapping, first./last.+retain accumulation of home/away points and goals, merges, and per-season Rank. Inline datalines hold a real 90-match subset (season 1993) of premier-league-matches.csv; finproj libname refs dropped (WORK). Ends in PROC PRINT of the ranking table."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_proc_reg",
+  "source_file": "Final Project.sas",
+  "source_blob_sha": "6a376dbceec7e326f61119ad6f8abed4235e1315",
+  "source_commit": "ad93a502d5d544fc6976d033a6e529401bfa8dad",
+  "notes": "PROC REG (model Rank = TotPoints) from Final Project.sas predicting standing from total points, run on the inline 90-match sample after the prep. Verbatim model/label/titles."
+}
